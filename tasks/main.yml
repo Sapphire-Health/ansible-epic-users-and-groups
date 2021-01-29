@@ -1,4 +1,8 @@
 ---
+  - name: Show all groups
+    ansible.builtin.debug:
+      msg: "{{ item }}"
+    loop: "{{ create_groups }}"
   - name: Create groups
     group:
       name: "{{ item.name }}"
