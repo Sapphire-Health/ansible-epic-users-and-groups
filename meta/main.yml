@@ -1,0 +1,9 @@
+---
+  galaxy_info:
+    role_name: ansible-epic-users-and-groups
+    author: Lyas Spiehler
+    description: Ansible role to create required Epic users and groups
+    company: Sapphire Health
+  collections: []
+  dependencies: []
+...
